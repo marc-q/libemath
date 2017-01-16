@@ -9,7 +9,7 @@ struct _point
 
 typedef struct _point point;
 
-void point_init (struct _point*, const int, const int);
+struct _point point_init (const int, const int);
 
 struct _point point_add (const struct _point*, const struct _point*);
 struct _point point_sub (const struct _point*, const struct _point*);

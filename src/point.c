@@ -1,9 +1,10 @@
 /* Copyright 2017 Marc Volker Dickmann */
 #include "point.h"
 
-struct _point point_init (const int x, const int y)
+void point_init (struct _point *self, const int x, const int y)
 {
-	return (struct _point) {x, y};
+	self->x = x;
+	self->y = y;
 }
 
 struct _point point_add (const struct _point *a, const struct _point *b)

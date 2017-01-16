@@ -1,7 +1,6 @@
 /* Copyright 2017 Marc Volker Dickmann */
 #include <stdio.h>
 #include "src/point.h"
-#include "src/vector.h"
 
 #define TEST_FAILED 0
 #define TEST_SUCCESS 1
